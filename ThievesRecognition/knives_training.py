@@ -6,13 +6,13 @@
 
 # ## Install libraries
 
-# In[14]:
+# In[1]:
 
 
 get_ipython().system('pip install mrcnn')
 
 
-# In[15]:
+# In[2]:
 
 
 import os
@@ -40,7 +40,7 @@ DEFAULT_LOGS_DIR = os.path.join(ROOT_DIR, "logs")
 
 # ##  Configurations
 
-# In[16]:
+# In[4]:
 
 
 class KnifeConfig(Config):
@@ -66,7 +66,7 @@ class KnifeConfig(Config):
 
 # ##  Dataset
 
-# In[17]:
+# In[5]:
 
 
 class KnifeDataset(utils.Dataset):
@@ -168,7 +168,7 @@ class KnifeDataset(utils.Dataset):
 
 # ## Training
 
-# In[18]:
+# In[7]:
 
 
 config = KnifeConfig()
@@ -178,7 +178,7 @@ KNIFE_DIR_DATASET = os.path.join(ROOT_DIR, "dataset/knife")
 
 # ## Create model
 
-# In[19]:
+# In[8]:
 
 
 model = modellib.MaskRCNN(mode="training", config=config,
@@ -187,7 +187,7 @@ model = modellib.MaskRCNN(mode="training", config=config,
 
 # ## Select weights file to load
 
-# In[20]:
+# In[9]:
 
 
 # Which weights to start with?
@@ -208,7 +208,7 @@ else:
 
 # ## Load weights
 
-# In[21]:
+# In[10]:
 
 
 print("Loading weights ", weights_path)
@@ -224,7 +224,7 @@ else:
 
 # ## Train or evaluate
 
-# In[ ]:
+# In[9]:
 
 
 # Training dataset.
