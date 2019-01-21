@@ -10,3 +10,10 @@ docker run -it -p 8888:8888 -p 6006:6006 -v ~/:/host sergiogq/deeplearninglab ju
 or
 docker run -it -p 8888:8888 -p 6006:6006 -v ~/:/host sergiogq/deeplearninglab
 ```
+
+# Installation
+1) Install dependencies
+
+```
+pip3 install -r requirements.txt
+```
