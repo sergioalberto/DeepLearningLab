@@ -119,6 +119,25 @@ pip3 install torchvision
 # but it doesn't seem to be active anymore.
 RUN pip3 install --no-cache-dir git+https://github.com/waleedka/coco.git#subdirectory=PythonAPI
 
+# 
+# TensorFlow Models
+#
+RUN mkdir /home/models && cd /home/models && \
+    git clone -b master --depth 1 https://github.com/tensorflow/models.git /home/models
+
+# 
+# Install Protocol
+#
+RUN apt-get install -y autoconf automake libtool curl python-dev && cd /home/ && \
+    curl -OL https://github.com/google/protobuf/releases/download/v3.2.0/protoc-3.2.0-linux-x86_64.zip && \
+    unzip protoc-3.2.0-linux-x86_64.zip -d protoc3 && \
+    mv protoc3/bin/* /usr/local/bin/ && \
+    mv protoc3/include/* /usr/local/include/
+
+#
+# Set up environment
+#
+ENV PYTHONPATH=/home/models:/home/models/research:/home/models/research/slim:$PYTHONPATH
+
 WORKDIR "/root"
 CMD ["/bin/bash"]
-
