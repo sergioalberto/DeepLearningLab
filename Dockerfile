@@ -137,7 +137,7 @@ RUN apt-get install -y autoconf automake libtool curl python-dev && cd /home/ &&
 #
 # Set up environment
 #
-ENV PYTHONPATH=/home/models:/home/models/research:/home/models/research/slim:$PYTHONPATH
+ENV PYTHONPATH=/root/workspace/models:/root/workspace/models/research:/root/workspace/models/research/slim:$PYTHONPATH
 
 WORKDIR "/root"
 CMD ["/bin/bash"]
