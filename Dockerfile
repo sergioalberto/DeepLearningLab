@@ -120,12 +120,6 @@ pip3 install torchvision
 RUN pip3 install --no-cache-dir git+https://github.com/waleedka/coco.git#subdirectory=PythonAPI
 
 # 
-# TensorFlow Models
-#
-RUN mkdir /home/models && cd /home/models && \
-    git clone -b master --depth 1 https://github.com/tensorflow/models.git /home/models
-
-# 
 # Install Protocol
 #
 RUN apt-get install -y autoconf automake libtool curl python-dev && cd /home/ && \
