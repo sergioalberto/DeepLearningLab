@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>knife.jpg</filename>
+	<path>/home/sergiogq/workspace/DeepLearningLab/models/research/object_detection/images/test/knife.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>359</width>
+		<height>140</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>knife</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>72</xmin>
+			<ymin>6</ymin>
+			<xmax>264</xmax>
+			<ymax>116</ymax>
+		</bndbox>
+	</object>
+</annotation>
