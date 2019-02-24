@@ -1,0 +1,34 @@
+item {
+    id: 1
+    name: 'balaclava'
+}
+
+item {
+    id: 2
+    name: 'baseball_bat'
+}
+
+item {
+    id: 3
+    name: 'bonnet'
+}
+
+item {
+    id: 4
+    name: 'gun'
+}
+
+item {
+    id: 5
+    name: 'hand'
+}
+
+item {
+    id: 6
+    name: 'knife'
+}
+
+item {
+    id: 7
+    name: 'person'
+}

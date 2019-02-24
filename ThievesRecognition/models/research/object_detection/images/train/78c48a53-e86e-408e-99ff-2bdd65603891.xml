@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>78c48a53-e86e-408e-99ff-2bdd65603891.jpg</filename>
+	<path>/home/sergiogq/workspace/DeepLearningLab/models/research/object_detection/images/train/78c48a53-e86e-408e-99ff-2bdd65603891.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>299</width>
+		<height>169</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>knife</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>85</xmin>
+			<ymin>31</ymin>
+			<xmax>203</xmax>
+			<ymax>142</ymax>
+		</bndbox>
+	</object>
+</annotation>

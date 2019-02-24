@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>tacraze_7_.jpg</filename>
+	<path>/home/sergiogq/workspace/DeepLearningLab/models/research/object_detection/images/test/tacraze_7_.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>662</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>knife</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>328</xmin>
+			<ymin>140</ymin>
+			<xmax>754</xmax>
+			<ymax>532</ymax>
+		</bndbox>
+	</object>
+</annotation>
