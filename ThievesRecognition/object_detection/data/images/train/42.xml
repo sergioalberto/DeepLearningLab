@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>42.jpg</filename>
+	<path>/home/sergiogq/workspace/DeepLearningLab/ThievesRecognition/object_detection/data/images/train/42.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>knife</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>42</xmin>
+			<ymin>79</ymin>
+			<xmax>771</xmax>
+			<ymax>514</ymax>
+		</bndbox>
+	</object>
+</annotation>
