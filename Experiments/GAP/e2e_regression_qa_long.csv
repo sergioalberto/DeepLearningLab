@@ -1,0 +1,398 @@
+﻿"ID","Title","Assigned To","Case ID","Comment","Cucumber feature","Defects","Elapsed","Estimate","In Progress","Is this test automatable?","Nightwatch feature","Number of Features (Complexity)","Owner","Plan","Plan ID","Priority","References","Run","Run Configuration","Run ID","Section","Section Depth","Section Description","Status","Status","Summary","Tags","Tested By","Tested On","Version"
+"T4470528","I can navigate to a CZ dashboard","","C4930754","","","","6s","","","Y","collection-zone.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1212","Collection Zones","","R15069","Collection Zones","0","","Draft","Passed","Feature: Collection Zone page
+This scenario asserts that a user can go to a CZ, find a device, follow a link to smartview for the device, go back to the CZ, go to the device components, and follow a link to smartview a component.
+
+I can navigate to a CZ dashboard","","Automation User","3/29/2019 5:30 PM",""
+"T4470529","I can search for a device in CZ","","C4939823","","","","11s","","","Y","collection-zone.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1213","Collection Zones","","R15069","Collection Zones","0","","Draft","Passed","Feature: Collection Zone page
+This scenario asserts that a user can go to a CZ, find a device, follow a link to smartview for the device, go back to the CZ, go to the device components, and follow a link to smartview a component.
+
+I can search for a device in CZ","","Automation User","3/29/2019 5:30 PM",""
+"T4470530","I can view components for a given device","","C4948864","","","","13s","","","Y","collection-zone.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1214","Collection Zones","","R15069","Collection Zones","0","","Draft","Passed","Feature: Collection Zone page
+This scenario asserts that a user can go to a CZ, find a device, follow a link to smartview for the device, go back to the CZ, go to the device components, and follow a link to smartview a component.
+
+I can view components for a given device","","Automation User","3/29/2019 5:30 PM",""
+"T4470531","I can find a device in CZ and see a smartview for it","","C4952236","","","","46s","","","Y","collection-zone.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1215","Collection Zones","","R15069","Collection Zones","0","","Draft","Passed","Feature: Collection Zone page
+This scenario asserts that a user can go to a CZ, find a device, follow a link to smartview for the device, go back to the CZ, go to the device components, and follow a link to smartview a component.
+
+I can find a device in CZ and see a smartview for it","","Automation User","3/29/2019 5:31 PM",""
+"T4470532","Verify that Collection Zones display the Added timestamp","","C4227660","","","","1s","","","Y","collection-zone.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1816","Collection Zones","","R15069","Collection Zones","0","","Draft","Passed","Feature: Collection Zone page
+This scenario asserts that a user can go to a CZ, find a device, follow a link to smartview for the device, go back to the CZ, go to the device components, and follow a link to smartview a component.
+
+Verify that Collection Zones display the Added timestamp","","Automation User","3/29/2019 5:31 PM",""
+"T4470533","Verify that Collection Zones display their Explore icon","","C4227662","","","","1s","","","Y","collection-zone.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1818","Collection Zones","","R15069","Collection Zones","0","","Draft","Passed","Feature: Collection Zone page
+This scenario asserts that a user can go to a CZ, find a device, follow a link to smartview for the device, go back to the CZ, go to the device components, and follow a link to smartview a component.
+
+Verify that Collection Zones display their Explore icon","","Automation User","3/29/2019 5:31 PM",""
+"T4479104","Verify that Collection Zones display a Valid Name","","C4227661","","","","1s","","","Y","collection-zone.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1817","Collection Zones","","R15069","Collection Zones","0","","Draft","Passed","This TC verifies that the Collection Zone displays a valid name
+
+","","Automation User","3/29/2019 5:31 PM",""
+"T4506520","Verify browser back button work navigating back to CZ from Smart View","","C5665576","Error: Verify the device detail name for 'testrail.zenoss.loc' on Collection Zone. - Expected ""found"" but got: ""not found""","","","32s","","","Y","collection-zone.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-626","Collection Zones","","R15069","Collection Zones","0","","Draft","Failed","This TC verifies that navigating from a device page back to the Smart View will redirect to the exact device it originated from","","Automation User","3/29/2019 5:32 PM",""
+"T4470534","Verify that a User is able to open the 'Help and Information' menu","","C4227658","","","","1s","","","Y","help.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1793","Help","","R15070","Help UI","0","","Draft","Passed","This TC verifies that the help drop down menu opens a list of options
+
+","","Automation User","3/29/2019 5:32 PM",""
+"T4470535","Verify that Help links open Confluence help section","","C4227659","","","","3s","","","Y","help.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1794","Help","","R15070","Help UI","0","","Draft","Passed","Verifies that the help drop down menu opens Confluence","","Automation User","3/29/2019 5:32 PM",""
+"T4470536","Auth0 user login","","C4901727","","","","9s","","","Y","login.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Login and RBAC","","R15071","Login","0","Login and RBAC
+Users can login and parts of the UI are shown or hidden based on RBAC","Draft","Passed","Feature: Login and RBAC
+Users can login and parts of the UI are show or hidden based on RBAC
+
+Auth0 user login","","Automation User","3/29/2019 5:32 PM",""
+"T4470537","ZCUser does not have access to admin tab","","C4901728","","","","1s","","","Y","login.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Login and RBAC","","R15071","Login","0","Login and RBAC
+Users can login and parts of the UI are shown or hidden based on RBAC","Draft","Passed","Feature: Login and RBAC
+Users can login and parts of the UI are show or hidden based on RBAC
+
+ZCUser does not have access to admin tab","","Automation User","3/29/2019 5:32 PM",""
+"T4470539","ZCUser does not have access to admin page","","C4901729","","","","1s","","","Y","login.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Login and RBAC","","R15071","Login","0","Login and RBAC
+Users can login and parts of the UI are shown or hidden based on RBAC","Draft","Passed","Feature: Login and RBAC
+Users can login and parts of the UI are show or hidden based on RBAC
+
+ZCUser does not have access to admin page","","Automation User","3/29/2019 5:32 PM",""
+"T4470540","ZCManager has access to admin tab","","C4901730","","","","7s","","","Y","login.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Login and RBAC","","R15071","Login","0","Login and RBAC
+Users can login and parts of the UI are shown or hidden based on RBAC","Draft","Passed","Feature: Login and RBAC
+Users can login and parts of the UI are show or hidden based on RBAC
+
+ZCManager has access to admin tab","","Automation User","3/29/2019 5:32 PM",""
+"T4470541","ZCManager has access to admin page","","C4901731","","","","1s","","","Y","login.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Login and RBAC","","R15071","Login","0","Login and RBAC
+Users can login and parts of the UI are shown or hidden based on RBAC","Draft","Passed","Feature: Login and RBAC
+Users can login and parts of the UI are show or hidden based on RBAC
+
+ZCManager has access to admin page","","Automation User","3/29/2019 5:32 PM",""
+"T4473509","User is redirected to login page","","C5330355","","","","4s","","","Y","login.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Login and RBAC","","R15071","Login","0","Login and RBAC
+Users can login and parts of the UI are shown or hidden based on RBAC","Draft","Passed","Feature: Login and RBAC
+Users can login and parts of the UI are show or hidden based on RBAC
+
+User is redirected to login page","","Automation User","3/29/2019 5:32 PM",""
+"T4488955","Verify Auth0 lock works after logout","","C4413974","","","","315s","","","Y","login.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-673","Login and RBAC","","R15071","Login","0","Login and RBAC
+Users can login and parts of the UI are shown or hidden based on RBAC","Draft","Passed","This TC Verifies that after logging out Auth0 enforces the verification of credentials - ZING-673","","Automation User","3/29/2019 5:38 PM",""
+"T4563293","Verify that user is re authenticated(silent) when authToken expires.","","C4930753","Error: Failed [equal]: (Verify if it is on Smart View page (https://zenoss-dev.auth0.com/login?state=g6Fo2SB0VlhsbGM5WEN0Si0wX2dLVG5UN3UyRFRHWWpTajlrUqN0aWTZIHRaLU9sd0VZcHBpZkc4QUpGam5iMVk4VWNjMzhqR1lLo2NpZNkgREVwVW01cFU0QjVtT1htVnRDOUNIQm1BWEltdmVKbFE&client=DEpUm5pU4B5mOXmVtC9CHBmAXImveJlQ&protocol=oauth2&response_type=token%20id_token&redirect_uri=https%3A%2F%2Fqa-long.zenoss.io%2Fauth.html&scope=openid%20profile&audience=https%3A%2F%2Fdev.zing.ninja&error_description=&nonce=dO1sskVhChdRFy2daXx4SXujL.58bES4&auth0Client=eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiOS40LjIifQ%3D%3D)) - Expected ""true"" but got: ""false""","","ZING-2881","636s","","","Y","login.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-2778","Login and RBAC","","R15071","Login","0","Login and RBAC
+Users can login and parts of the UI are shown or hidden based on RBAC","Draft","Failed","Verify that the user is re-authenticated when the accessToken expires. ","","Automation User","3/29/2019 5:48 PM",""
+"T4470546","Search using an undisplayed property","","C4305402","Error: Timed out while waiting for element <.entity-results .missing> to be removed for 40000 milliseconds. - Expected ""not found"" but got: ""found""","","ZING-1429","42s","","","Y","search.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1154","Smart View","","R15068","Search","0","","Draft","Failed","Search using a property that isn't displayed","","Automation User","3/29/2019 6:14 PM",""
+"T4470547","Verify that results are autopopulated","","C4227663","","","","2s","","","Y","search.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1150","Smart View","","R15068","Search","0","","Draft","Passed","Verify that results are autopopulated","","Automation User","3/29/2019 6:14 PM",""
+"T4470548","Search using the CONTEXTUUID property","","C4305401","Error: waitForText: .entity-results. Expression wasn't true in 40000 ms. - Expected ""expression true"" but got: ""expression false""","","ZING-2798","83s","","","Y","search.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1153","Smart View","","R15068","Search","0","","Draft","Failed","Search using the NAME property","","Automation User","3/29/2019 6:15 PM",""
+"T4470549","Search using multiple properties","","C4305403","Error: waitForText: .entity-results. Expression wasn't true in 40000 ms. - Expected ""expression true"" but got: ""expression false""","","ZING-1429","117s","","","Y","search.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1155","Smart View","","R15068","Search","0","","Draft","Failed","Search using multiple properties","","Automation User","3/29/2019 6:17 PM",""
+"T4488960","Search using the SOURCE property","","C4305400","Error: Timed out while waiting for element <.entity-results .missing> to be removed for 40000 milliseconds. - Expected ""not found"" but got: ""found""","","ZING-1429","100s","","","Y","search.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Search","0","","Draft","Failed","Search using the SOURCE property","","Automation User","3/29/2019 6:19 PM",""
+"T4488583","Look for some entity that does not exist","","C5689034","","","","2s","","","Y","search.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-2065","Smart View","","R15068","Search","0","","Draft","Passed","Smartview should display a message like this: `No results found`: ![](index.php?/attachments/get/330454)
+","","Automation User","3/29/2019 6:19 PM",""
+"T4470523","I can search for and Smart View entity","","C4873666","","","","49s","","","Y","search.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1033","Smart View","","R15068","Search","0","","Draft","Passed","Feature: Smart View search section
+Users can search entities on Smart View page
+
+I can search for and Smart View entity","","Automation User","3/29/2019 6:20 PM",""
+"T4491028","Verify calendar picker branding","","C5689049","","","","7s","","","Y","smart-view.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Search","0","","Draft","Passed","","","Automation User","3/29/2019 5:57 PM",""
+"T4493346","Search using a not displayed property","","C5689085","Error: Timed out while waiting for element <.z-nav-search .entity-results .missing> to be removed for 40000 milliseconds. - Expected ""not found"" but got: ""found""","","ZING-1429","42s","","","Y","quick-search.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Quick search","1","Top navigation bar search","Draft","Failed","Feature: Top navigation bar quick search
+Users can perform searches from the top navigation bar
+
+Search using a not displayed property","","Automation User","3/29/2019 6:05 PM",""
+"T4493352","Verify that results are autopopulated","","C5689086","","","","2s","","","Y","quick-search.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Quick search","1","Top navigation bar search","Draft","Passed","Feature: Top navigation bar quick search
+Users can perform searches from the top navigation bar
+
+Verify that results are autopopulated","","Automation User","3/29/2019 6:05 PM",""
+"T4493359","Search using the CONTEXTUUID property","","C5689087","Error: waitForText: .entity-results. Expression wasn't true in 40000 ms. - Expected ""expression true"" but got: ""expression false""","","ZING-2798","59s","","","Y","quick-search.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Quick search","1","Top navigation bar search","Draft","Failed","Feature: Top navigation bar quick search
+Users can perform searches from the top navigation bar
+
+Search using the CONTEXTUUID property","","Automation User","3/29/2019 6:06 PM",""
+"T4493365","Search using multiple properties","","C5689088","Error: Timed out while waiting for element <.z-nav-search .entity-results .missing> to be removed for 40000 milliseconds. - Expected ""not found"" but got: ""found""","","ZING-1429","75s","","","Y","quick-search.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Quick search","1","Top navigation bar search","Draft","Failed","Feature: Top navigation bar quick search
+Users can perform searches from the top navigation bar
+
+Search using multiple properties","","Automation User","3/29/2019 6:09 PM",""
+"T4493371","Look for some entity that does not exist","","C5689089","","","","2s","","","Y","quick-search.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Quick search","1","Top navigation bar search","Draft","Passed","Feature: Top navigation bar quick search
+Users can perform searches from the top navigation bar
+
+Look for some entity that does not exist","","Automation User","3/29/2019 6:09 PM",""
+"T4470550","Smart View provides visual correlation with a focus line","","C4901722","Error: Wait for "".z-smartviewz-card-list .z-smartviewz-card"" in related entity section. - Expected ""found"" but got: ""not found""","","ZING-1505","55s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1040","Smart View","","R15068","SmartView-Sections","0","","Draft","Failed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+Smart View provides visual correlation with a focus line","","Automation User","3/29/2019 5:49 PM",""
+"T4470551","Smart View anchor big graph zooms the whole world","","C4910677","Error: Timed out while waiting for element <.tile-title[title='qa-88-host11-datastore']> to be present for 40000 milliseconds. - Expected ""found"" but got: ""not found""","","ZING-1505","46s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1037","Smart View","","R15068","SmartView-Sections","0","","Draft","Failed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+Smart View anchor big graph zooms the whole world","","Automation User","3/29/2019 5:50 PM",""
+"T4479105","I can search for, smartview, and learn about entity-x, then reanchor to entity-y","","C4919626","Error: Look for 'apache_cpuLoad' confidence metric on the Big Graph. - Expected ""found"" but got: ""not found""","","ZING-1505","97s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1157","Smart View","","R15068","SmartView-Sections","0","","Draft","Failed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+I can search for, smartview, and learn about entity-x, then reanchor to entity-y","","Automation User","3/29/2019 5:52 PM",""
+"T4470553","Select from the quick-pick time ranges","","C4305410","","","","9s","","","Y","smart-view.feature"," 4","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1695","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","Change the time range of the data using the quick-pick buttons","","Automation User","3/29/2019 5:53 PM",""
+"T4488965","Select time ranges using the time slider","","C4305411","","","","10s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1694","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","Change the time range of the data using the time slider","","Automation User","3/29/2019 5:53 PM",""
+"T4479107","Select time ranges using the primary metric's time slider","","C4322777","Error: Timed out while waiting for element <Section[name=smartViewAnchor],Section[name=bigGraph],Element[name=@bigGraphLine]> to be present for 10000 milliseconds. - Expected ""found"" but got: ""not found""","","","23s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1704","Smart View","","R15068","SmartView-Sections","0","","Draft","Failed","Change the time range of the data using the primary metric's time slider","","Automation User","3/29/2019 5:53 PM",""
+"T4506634","Set precise date range","","C5665586","","","","20s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-750","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+Set precise date range","","Automation User","3/29/2019 5:54 PM",""
+"T4506635","The big graph time slider should match visual design","","C5665587","","","","8s","","","Y","smart-view.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-756","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+The big graph time slider should match visual design","","Automation User","3/29/2019 5:55 PM",""
+"T4506636","Verify the calendar input icon size","","C5665590","","","","1s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1624","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+Verify the calendar input icon size","","Automation User","3/29/2019 5:55 PM",""
+"T4506638","The `z-nav` class should be on the Smartview header top menu","","C5679737","","","","1s","","","Y","smart-view.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1814","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+The `z-nav` class should be on the Smartview header top menu","","Automation User","3/29/2019 5:55 PM",""
+"T4506633","Edit a start date picker some days ago","","C5665584","","","","7s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1844","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+Edit a start date picker some days ago","","Automation User","3/29/2019 5:55 PM",""
+"T4506637","Buttons throughout ZUI should match style guide specs","","C5665591","","","","7s","","","Y","smart-view.feature"," 1","Sergio Gonzalez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1710","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","The buttons should following the style guide design (default, on click, disabled, ...):
+![](index.php?/attachments/get/328707)
+
+Should test buttons like:
+
+- Explore collection zones
+![](index.php?/attachments/get/328709)
+
+- Add and save groups
+![](index.php?/attachments/get/328710)
+
+- Add and save user
+![](index.php?/attachments/get/328711)
+","","Automation User","3/29/2019 5:55 PM",""
+"T4488647","Edit a start date picker some days ago","","C5689041","","","","7s","","","Y","smart-view.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","The application should be able to modify the time just typing the date using a valid format (day/month/year hour:minutes). For example: ![](index.php?/attachments/get/330461)
+
+","","Automation User","3/29/2019 5:55 PM",""
+"T4488664","Type something wrong on the date picker inputs","","C5689043","","","","10s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+Type something wrong on the date picker inputs","","Automation User","3/29/2019 5:55 PM",""
+"T4488672","Write a maximum date time on picker inputs","","C5689044","","","","6s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","When the user writes a maximum date time on the inputs, the application should display an error and look like this: ![](index.php?/attachments/get/330463)
+","","Automation User","3/29/2019 5:55 PM",""
+"T4488654","Edit a start date higher than end date picker","","C5689042","","","","7s","","","Y","smart-view.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-2073","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","The application should show an error like ![](index.php?/attachments/get/330460), this when the start date is higher than the end date picker","","Automation User","3/29/2019 5:56 PM",""
+"T4526162","I open Smart View and see timestamp synchronization","","C5959549","","","","7s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+I open Smart View and see timestamp synchronization","","Automation User","3/29/2019 5:53 PM",""
+"T4526167","Timestamp synchronization when I modify period of time","","C5959550","","","","14s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+Timestamp synchronization when I modify period of time","","Automation User","3/29/2019 5:54 PM",""
+"T4526172","Timestamp synchronization when I use time slider","","C5959551","","","","20s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+Timestamp synchronization when I use time slider","","Automation User","3/29/2019 5:54 PM",""
+"T4526177","Timestamp synchronization when I use calendar","","C5959552","","","","9s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","SmartView-Sections","0","","Draft","Passed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+Timestamp synchronization when I use calendar","","Automation User","3/29/2019 5:54 PM",""
+"T4488629","Choose a start date picker some days ago","","C5689038","","","","9s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-2069","Smart View","","R15068","Header Area","1","","Draft","Passed","Feature: Smart View page
+Users can find important information about an entity, including the entities it depends on and any events that affect it, at any period in time.
+
+Choose a start date picker some days ago","","Automation User","3/29/2019 5:57 PM",""
+"T4470542","Related entities are present","","C4614463","","","","40s","","","Y","related-entities.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Related Entities","1","","Draft","Passed","Feature: Related entity on Smart View
+The user can see related entity for Anchor Card
+
+Related entities are present","","Automation User","3/29/2019 6:10 PM",""
+"T4470543","Smart View related entities to entity has expected info","","C4892780","Error: Wait for ""vmnic3"" related entity. - Expected ""found"" but got: ""not found""","","ZING-1505","47s","","","Y","related-entities.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1039","Smart View","","R15068","Related Entities","1","","Draft","Failed","Feature: Related entity on Smart View
+The user can see related entity for Anchor Card
+
+Smart View related entities to entity has expected info","","Automation User","3/29/2019 6:11 PM",""
+"T4470544","Smart View reanchors to a related entity","","C4901733","Error: Wait for ""vmnic3"" related entity. - Expected ""found"" but got: ""not found""","","ZING-1505","46s","","","Y","related-entities.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1041","Smart View","","R15068","Related Entities","1","","Draft","Failed","Feature: Related entity on Smart View
+The user can see related entity for Anchor Card
+
+Smart View reanchors to a related entity","","Automation User","3/29/2019 6:11 PM",""
+"T4505585","SmartView entities reflect the data from the Device (SSH Linux Device)","","C5893905","Error: Failed [equal]: (The following 'NETWORK ADAPTER 1' related entities were not found in 'SE-CLUSTER,VXCHNGE SE,SE1-ARCHIVE,ATX-90-SE-HOST-04.ZENOSS.LOC,PRODUCTION,VMNIC0 (ATX-90-SE-HOST-04.ZENOSS.LOC),VMNIC1 (ATX-90-SE-HOST-04.ZENOSS.LOC),VMNIC2 (ATX-90-SE-HOST-04.ZENOSS.LOC),VMNIC3 (ATX-90-SE-HOST-04.ZENOSS.LOC),RESOURCES,SE-TARGET-APACHE-02,,VCENTER-88.ZENOSS.LOC' CZ dependencies) - Expected ""0"" but got: ""1""","","ZING-1505, ZING-2467","19s","","","Y","related-entities.feature"," 1","Sergio Gonzalez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-2398","Smart View","","R15068","Related Entities","1","","Draft","Failed","This TC aims to verify that the Related Entities on a Device actually reflect the entities of a device","","Automation User","3/29/2019 6:12 PM",""
+"T4506507","SmartView entities reflect the data from the Device (Windows Device)","","C5912820","Error: Wait for entity 'test-win2008-ad.zenoss.lab'. - Expected ""visible"" but got: ""not found""","","ZING-1505, ZING-2467","43s","","","Y","related-entities.feature"," 1","Sergio Gonzalez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-2409","Smart View","","R15068","Related Entities","1","","Draft","Failed","This TC aims to verify that the Related Entities on a Device actually reflect the entities of a device - Windows Server
+
+","","Automation User","3/29/2019 6:12 PM",""
+"T4506657","SmartView entities reflect the data from the Device (UCS-C-SERIES Device)","","C5912837","","","","22s","","","Y","related-entities.feature"," 1","Sergio Gonzalez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-2418","Smart View","","R15068","Related Entities","1","","Draft","Passed","This TC aims to verify that the Related Entities on a Device actually reflect the entities of a device - UCS-C-SERIES
+
+","","Automation User","3/29/2019 6:13 PM",""
+"T4470522","Anchor card shows the entity types","","C4614465","","","","35s","","","Y","anchor-card.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Anchor Entity","1","","Draft","Passed","Feature: Anchor card on Smart View
+The user can see the entity types and graphs on an Anchor Card
+
+Anchor card shows the entity types","","Automation User","3/29/2019 5:58 PM",""
+"T4479067","Smart View anchor metrics can be promoted to big graph","","C4614466","","","","8s","","","Y","anchor-card.feature"," 1","Sergio Gonzalez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1038","Smart View","","R15068","Anchor Entity","1","","Draft","Passed","Feature: Anchor card on Smart View
+The user can see the entity types and graphs on an Anchor Card
+
+Smart View anchor metrics can be promoted to big graph","","Automation User","3/29/2019 5:58 PM",""
+"T4479072","Smart View anchor for an entity has expected info","","C4891404","Error: Wait for entity 'testrail.zenoss.loc'. - Expected ""visible"" but got: ""not found""","","ZING-2655","44s","","","Y","anchor-card.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1036","Smart View","","R15068","Anchor Entity","1","","Draft","Failed","Feature: Anchor card on Smart View
+The user can see the entity types and graphs on an Anchor Card
+
+Smart View anchor for an entity has expected info","","Automation User","3/29/2019 5:59 PM",""
+"T4470524","Verify that the collection zone link in the entity's Information modal takes you to the correct place","","C4227666","","","","31s","","","Y","anchor-card.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1702","Smart View","","R15068","Anchor Entity","1","","Draft","Passed","Verify that the collection zone link in the entity's Information modal takes you to the correct place","","Automation User","3/29/2019 5:59 PM",""
+"T4470526","Verify that the device link in the entity's Information modal takes you to the correct place","","C4227667","","","","15s","","","Y","anchor-card.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1703","Smart View","","R15068","Anchor Entity","1","","Draft","Passed","Verify that the device link in the entity's Information modal takes you to the correct place","","Automation User","3/29/2019 5:59 PM",""
+"T4479091","Set different primary charts","","C4305404","","","","18s","","","Y","anchor-card.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1705","Smart View","","R15068","Anchor Entity","1","","Draft","Passed","Change the primary chart displayed for the anchor entity","","Automation User","3/29/2019 6:00 PM",""
+"T4479350","Verify baselines are being displayed around graph data","","C4305405","","","","37s","","","Y","anchor-card.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1706","Smart View","","R15068","Anchor Entity","1","","Draft","Passed","Verify the baselines are being displayed around graph data (the baselines refer to the confidence bands, which are the blue areas around the graph line).
+
+See [Anomaly Detection Overview](https://docs.google.com/document/d/1LxUi7ooqZcWMzsYlYU2rDwPSxJgl1C4xX26XKFMXQAo) for more information on baselines and anomaly detection in Zenoss Cloud","","Automation User","3/29/2019 6:00 PM",""
+"T4480577","Verify anomalies are being displayed","","C4305406","Error: Look for the 'apache_cpuLoad' metric on All Metrics Area to promote it. - Expected ""found"" but got: ""not found""","","ZING-2655","46s","","","Y","anchor-card.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1707","Smart View","","R15068","Anchor Entity","1","","Draft","Failed","Verify anonmalies are being displayed
+
+See [Anomaly Detection Overview](https://docs.google.com/document/d/1LxUi7ooqZcWMzsYlYU2rDwPSxJgl1C4xX26XKFMXQAo) for more information on baselines and anomaly detection in Zenoss Cloud","","Automation User","3/29/2019 6:01 PM",""
+"T4492880","Verify highlight metrics on all metrics section","","C5689071","","","","10s","","","Y","anchor-card.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Anchor Entity","1","","Draft","Passed","Feature: Anchor card on Smart View
+The user can see the entity types and graphs on an Anchor Card
+
+Verify highlight metrics on all metrics section","","Automation User","3/29/2019 6:01 PM",""
+"T4492887","Identify the primary metric from the all metrics section","","C5689072","","","","10s","","","Y","anchor-card.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Anchor Entity","1","","Draft","Passed","Feature: Anchor card on Smart View
+The user can see the entity types and graphs on an Anchor Card
+
+Identify the primary metric from the all metrics section","","Automation User","3/29/2019 6:02 PM",""
+"T4492937","Verify the vote value is saved","","C5689076","","","","23s","","","Y","anchor-card.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Anchor Entity","1","","Draft","Passed","Feature: Anchor card on Smart View
+The user can see the entity types and graphs on an Anchor Card
+
+Verify the vote value is saved","","Automation User","3/29/2019 6:02 PM",""
+"T4492947","Verify a metric popup with information about it","","C5689077","","","","7s","","","Y","anchor-card.feature"," 1","Sergio Gonzalez","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Anchor Entity","1","","Draft","Passed","Feature: Anchor card on Smart View
+The user can see the entity types and graphs on an Anchor Card
+
+Verify a metric popup with information about it","","Automation User","3/29/2019 6:02 PM",""
+"T4492900","Verify anomaly detection icon is disabled on anomalies absence","","C5689074","","","","12s","","","Y","anchor-card.feature"," 1","Sergio Gonzalez","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Anchor Entity","1","","Draft","Passed","Feature: Anchor card on Smart View
+The user can see the entity types and graphs on an Anchor Card
+
+Verify anomaly detection icon is disabled on anomalies absence","","Automation User","3/29/2019 6:02 PM",""
+"T4492894","Verify anomaly detection icon is enabled on anomalies presence","","C5689073","Error: Look for the 'apache_cpuLoad' metric on All Metrics Area to promote it. - Expected ""found"" but got: ""not found""","","ZING-2655","77s","","","Y","anchor-card.feature"," 1","Sergio Gonzalez","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Anchor Entity","1","","Draft","Failed","Feature: Anchor card on Smart View
+The user can see the entity types and graphs on an Anchor Card
+
+Verify anomaly detection icon is enabled on anomalies presence","","Automation User","3/29/2019 6:04 PM",""
+"T4492961","Maximize an anomaly from an anomaly mark","","C5689078","","","","45s","","","Y","anchor-card.feature"," 1","Sergio Gonzalez","All automation (e2e + regression) on qa-long","R15067","Medium","","Smart View","","R15068","Anchor Entity","1","","Draft","Passed","Feature: Anchor card on Smart View
+The user can see the entity types and graphs on an Anchor Card
+
+Maximize an anomaly from an anomaly mark","","Automation User","3/29/2019 6:04 PM",""
+"T4491238","Verify the order of Entity Types in anchor card","","C5689059","","","","5s","","","Y","smart-view.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1891","Testcases for tickets","","R15362","Test Cases","0","","Draft","Passed","When an entity is displayed in SmartView (as an anchor or a related entity), the list of types is included. We would see one or two of the most specific types instead of the whole list.","","Automation User","3/29/2019 5:57 PM",""
+"T4497149","User can see the theme switch under user menu","","C5689053","","","","1s","","","Y","theme.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Themes","","R15462","Dark theme","0","","Draft","Passed","Feature: User can change theme
+
+
+User can see the theme switch under user menu","","Automation User","3/29/2019 6:20 PM",""
+"T4497150","User can switch to light theme","","C5689054","","","","1s","","","Y","theme.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Themes","","R15462","Dark theme","0","","Draft","Passed","","","Automation User","3/29/2019 6:20 PM",""
+"T4497151","User can switch to dark theme","","C5689056","","","","1s","","","Y","theme.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Themes","","R15462","Light theme","0","","Draft","Passed","","","Automation User","3/29/2019 6:20 PM",""
+"T4503122","User can see events view","","C5689115","","","","33s","","","Y","events.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Cloud Events","","R15556","Events - Smartview Display","0","","Draft","Passed","Feature: Events
+User should be able to see events
+
+User can see events view","","Automation User","2/11/2019 6:10 PM",""
+"T4508377","User can add API client","","C5958558","","","","22s","","","Y","api-clients-management.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","API Keys","0","","Draft","Passed","Feature: User can manage API keys throught the admin view where he can add
+clients, generate keys, revoke keys, delete clients. signin-api-manager: Logs in user with API management role assigned
+
+User can add API client","","Automation User","3/29/2019 5:22 PM",""
+"T4508381","User can edit API client","","C5958559","","","","14s","","","Y","api-clients-management.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-2447","Admin","","R15557","API Keys","0","","Draft","Passed","Feature: User can manage API keys throught the admin view where he can add
+clients, generate keys, revoke keys, delete clients. signin-api-manager: Logs in user with API management role assigned
+
+User can edit API client","","Automation User","3/29/2019 5:22 PM",""
+"T4508385","User can delete API client","","C5958560","","","","11s","","","Y","api-clients-management.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-2448","Admin","","R15557","API Keys","0","","Draft","Passed","Feature: User can manage API keys throught the admin view where he can add
+clients, generate keys, revoke keys, delete clients. signin-api-manager: Logs in user with API management role assigned
+
+User can delete API client","","Automation User","3/29/2019 5:22 PM",""
+"T4508389","User can expand API client","","C5958561","","","","4s","","","Y","api-clients-management.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","API Keys","0","","Draft","Passed","Feature: User can manage API keys throught the admin view where he can add
+clients, generate keys, revoke keys, delete clients. signin-api-manager: Logs in user with API management role assigned
+
+User can expand API client","","Automation User","3/29/2019 5:22 PM",""
+"T4508393","User can collapse API client","","C5958562","","","","4s","","","Y","api-clients-management.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","API Keys","0","","Draft","Passed","Feature: User can manage API keys throught the admin view where he can add
+clients, generate keys, revoke keys, delete clients. signin-api-manager: Logs in user with API management role assigned
+
+User can collapse API client","","Automation User","3/29/2019 5:23 PM",""
+"T4508397","User can generate API client key","","C5958563","","","","15s","","","Y","api-clients-management.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","API Keys","0","","Draft","Passed","Feature: User can manage API keys throught the admin view where he can add
+clients, generate keys, revoke keys, delete clients. signin-api-manager: Logs in user with API management role assigned
+
+User can generate API client key","","Automation User","3/29/2019 5:23 PM",""
+"T4508401","Verify generated key was correctly saved and persists after sign-out","","C5958564","","","","20s","","","Y","api-clients-management.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","API Keys","0","","Draft","Passed","Feature: User can manage API keys throught the admin view where he can add
+clients, generate keys, revoke keys, delete clients. signin-api-manager: Logs in user with API management role assigned
+
+Verify generated key was correctly saved and persists after sign-out","","Automation User","3/29/2019 5:23 PM",""
+"T4508405","User can revoke API client key","","C5958565","","","","15s","","","Y","api-clients-management.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","API Keys","0","","Draft","Passed","Feature: User can manage API keys throught the admin view where he can add
+clients, generate keys, revoke keys, delete clients. signin-api-manager: Logs in user with API management role assigned
+
+User can revoke API client key","","Automation User","3/29/2019 5:23 PM",""
+"T4508409","Verify key creation date and creator email","","C5958566","","","","6s","","","Y","api-clients-management.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","API Keys","0","","Draft","Passed","Feature: User can manage API keys throught the admin view where he can add
+clients, generate keys, revoke keys, delete clients. signin-api-manager: Logs in user with API management role assigned
+
+Verify key creation date and creator email","","Automation User","3/29/2019 5:24 PM",""
+"T4508413","Verify user can paste copied key from clipboard","","C5958567","","","","16s","","","Y","api-clients-management.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","API Keys","0","","Draft","Passed","Feature: User can manage API keys throught the admin view where he can add
+clients, generate keys, revoke keys, delete clients. signin-api-manager: Logs in user with API management role assigned
+
+Verify user can paste copied key from clipboard","","Automation User","3/29/2019 5:24 PM",""
+"T4503129","A Zenoss Cloud Manager can add a user","","C5012661","","","","14s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+A Zenoss Cloud Manager can add a user","","Automation User","3/29/2019 5:26 PM",""
+"T4503130","A Zenoss Cloud Manager cannot add duplicated user","","C5581573","","","","13s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+A Zenoss Cloud Manager cannot add duplicated user","","Automation User","3/29/2019 5:26 PM",""
+"T4503131","An error is displayed if password does not meet minimum requirements","","C5656310","","","","4s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1922","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+An error is displayed if password does not meet minimum requirements","","Automation User","3/29/2019 5:26 PM",""
+"T4503132","A user created for one tenant cannot login to another tenant","","C5012662","","","","27s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+A user created for one tenant cannot login to another tenant","","Automation User","3/29/2019 5:27 PM",""
+"T4503133","A user without a group cannot login","","C5012663","","","","26s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+A user without a group cannot login","","Automation User","3/29/2019 5:27 PM",""
+"T4503134","A user with a group without a valid role assigned cannot login","","C5266681","","","","12s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+A user with a group without a valid role assigned cannot login","","Automation User","3/29/2019 5:27 PM",""
+"T4503135","A user with a group with a valid role assign can login","","C5665693","","","","26s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+A user with a group with a valid role assign can login","","Automation User","3/29/2019 5:28 PM",""
+"T4503136","Filter the list of users via the group filter","","C5012664","","","","11s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+Filter the list of users via the group filter","","Automation User","3/29/2019 5:28 PM",""
+"T4503137","Search for a user","","C5012665","","","","3s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+Search for a user","","Automation User","3/29/2019 5:28 PM",""
+"T4503138","Search for a non existing user","","C5581571","","","","2s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+Search for a non existing user","","Automation User","3/29/2019 5:28 PM",""
+"T4503139","Edit user","","C5266682","","","","21s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+Edit user","","Automation User","3/29/2019 5:28 PM",""
+"T4503140","Delete user","","C5581569","","","","11s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+Delete user","","Automation User","3/29/2019 5:29 PM",""
+"T4506614","User see confirmation dialog when closing form for user adding","","C5665592","","","","4s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1800","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+User see confirmation dialog when closing form for user adding","","Automation User","3/29/2019 5:29 PM",""
+"T4506618","Verify user basic information","","C5689080","","","","18s","","","Y","users.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+Verify user basic information","","Automation User","3/29/2019 5:29 PM",""
+"T4506477","Create a group and an user to operate a Collection Zone","","C5689083","","","","13s","","","Y","users.feature"," 1","Sergio Gonzalez","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+Create a group and an user to operate a Collection Zone","","Automation User","3/29/2019 5:29 PM",""
+"T4506478","Can not add an user with an invalid email format","","C5689081","","","","5s","","","Y","users.feature"," 1","Sergio Gonzalez","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","User Management","0","","Draft","Passed","Feature: User management and permissions
+User can create a user and assign
+
+Can not add an user with an invalid email format","","Automation User","3/29/2019 5:30 PM",""
+"T4503123","User cannot duplicated group","","C5230286","","","","13s","","","Y","groups.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","Groups","0","","Draft","Passed","Feature: Group management
+User should be able to add, edit, delete and see information to an specific group. Each group can have different setting per application.
+
+User cannot duplicated group","","Automation User","3/29/2019 5:24 PM",""
+"T4503124","User can add group with a role to an app","","C5665694","","","","11s","","","Y","groups.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","Groups","0","","Draft","Passed","","","Automation User","3/29/2019 5:24 PM",""
+"T4503125","User cannot duplicated group","","C5330356","","","","10s","","","Y","groups.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","Groups","0","","Draft","Passed","Feature: Group management
+User should be able to add, edit, delete and see information to an specific group. Each group can have different setting per application.
+
+User cannot duplicated group","","Automation User","3/29/2019 5:25 PM",""
+"T4503126","User can see group info","","C5230287","","","","3s","","","Y","groups.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","Groups","0","","Draft","Passed","Feature: Group management
+User should be able to add, edit, delete and see information to an specific group. Each group can have different setting per application.
+
+User can see group info","","Automation User","3/29/2019 5:25 PM",""
+"T4503127","User can edit group","","C5230288","","","","10s","","","Y","groups.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","Groups","0","","Draft","Passed","Feature: Group management
+User should be able to add, edit, delete and see information to an specific group. Each group can have different setting per application.
+
+User can edit group","","Automation User","3/29/2019 5:25 PM",""
+"T4503128","User can delete group","","C5230289","","","","17s","","","Y","groups.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","","Admin","","R15557","Groups","0","","Draft","Passed","Feature: Group management
+User should be able to add, edit, delete and see information to an specific group. Each group can have different setting per application.
+
+User can delete group","","Automation User","3/29/2019 5:25 PM",""
+"T4506604","Confirm the delete icon visibility","","C5665582","","","","2s","","","Y","groups.feature"," 1","Eduardo Uribe","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1902","Admin","","R15557","Groups","0","","Draft","Passed","Feature: Group management
+User should be able to add, edit, delete and see information to an specific group. Each group can have different setting per application.
+
+Confirm the delete icon visibility","","Automation User","3/29/2019 5:25 PM",""
+"T4506607","User see confirmation dialog when closing form for group adding","","C5679736","","","","3s","","","Y","groups.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1800","Admin","","R15557","Groups","0","","Draft","Passed","Feature: Group management
+User should be able to add, edit, delete and see information to an specific group. Each group can have different setting per application.
+
+User see confirmation dialog when closing form for group adding","","Automation User","3/29/2019 5:25 PM",""
+"T4506605","Icon inside button should not disappear on hover","","C5665583","","","","1s","","","Y","groups.feature"," 1","Daniel Martinez","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1900","Admin","","R15557","Groups","0","","Draft","Passed","Feature: Group management
+User should be able to add, edit, delete and see information to an specific group. Each group can have different setting per application.
+
+Icon inside button should not disappear on hover","","Automation User","3/29/2019 5:25 PM",""
+"T4506606","Verify the group delete icon size","","C5665588","","","","2s","","","Y","groups.feature"," 1","","All automation (e2e + regression) on qa-long","R15067","Medium","ZING-1835","Admin","","R15557","Groups","0","","Draft","Passed","Feature: Group management
+User should be able to add, edit, delete and see information to an specific group. Each group can have different setting per application.
+
+Verify the group delete icon size","","Automation User","3/29/2019 5:25 PM",""
