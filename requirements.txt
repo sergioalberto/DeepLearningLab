@@ -11,3 +11,6 @@ h5py
 imgaug
 IPython[all]
 mrcnn
+seaborn
+plotly
+cufflinks
