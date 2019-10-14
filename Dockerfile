@@ -43,7 +43,7 @@ EXPOSE 8888
 #
 # Tensorflow 1.6.0 - CPU
 #
-RUN pip3 install --no-cache-dir --upgrade tensorflow 
+RUN pip3 install --no-cache-dir --upgrade tensorflow tensorflow_hub 
 
 # Expose port for TensorBoard
 EXPOSE 6006
