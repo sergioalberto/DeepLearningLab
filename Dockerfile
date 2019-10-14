@@ -129,6 +129,16 @@ RUN apt-get install -y autoconf automake libtool curl python-dev && cd /home/ &&
     mv protoc3/include/* /usr/local/include/
 
 #
+# Install Seaborn
+#
+RUN pip3 install --no-cache-dir --upgrade seaborn
+
+#
+# Install Plotly and Cufflinks
+#
+RUN pip3 install --no-cache-dir --upgrade plotly cufflinks
+
+#
 # Set up environment
 #
 ENV PYTHONPATH=/root/workspace/models:/root/workspace/models/research:/root/workspace/models/research/slim:$PYTHONPATH
