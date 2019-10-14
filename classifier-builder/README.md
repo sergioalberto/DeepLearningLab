@@ -1,6 +1,5 @@
 # Classifier Builder
-
-This is the classifier and training/running scripts for the test.ai elements classifier
+This is the classifier and training/running scripts for the test.ai elements classifier.
 
 ## System setup
 You will need to install Tensorflow(www.tensorflow.org), Google's open source AI framework.
