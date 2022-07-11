@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 MAINTAINER Sergio GQ <sergioalbertogq@gmail.com>
 
 # Supress warnings about missing front-end. As recommended at:
@@ -11,21 +11,24 @@ apt-utils git curl vim unzip openssh-client wget \
 build-essential cmake \
 libopenblas-dev
 
+RUN apt-get update && apt-get install -y software-properties-common gcc && \
+    add-apt-repository -y ppa:deadsnakes/ppa
+
 #
-# Python 3.5
+# Python 3.6
 #
 # For convenience, alias (but don't sym-link) python & pip to python3 & pip3 as recommended in:
 # http://askubuntu.com/questions/351318/changing-symlink-python-to-python3-causes-problems
-RUN apt-get install -y --no-install-recommends python3.5 python3.5-dev python3-pip python3-tk && \
+RUN apt-get update && apt-get install -y python3.6 python3-distutils python3-pip python3-apt python3-tk && \
 pip3 install --no-cache-dir --upgrade pip setuptools && \
 echo "alias python='python3'" >> /root/.bash_aliases && \
 echo "alias pip='pip3'" >> /root/.bash_aliases
 # Pillow and it's dependencies
-RUN apt-get install -y --no-install-recommends libjpeg-dev zlib1g-dev && \
-pip3 --no-cache-dir install Pillow
+RUN apt-get install -y --no-install-recommends libjpeg-dev zlib1g-dev
+RUN pip3 --no-cache-dir install Pillow
 # Science libraries and other common packages
 RUN pip3 --no-cache-dir install \
-numpy scipy sklearn scikit-image==0.13.1 pandas matplotlib Cython requests
+numpy scipy sklearn scikit-image==0.13.1 pandas matplotlib Cython requests rake_nltk turicreate
 
 #
 # Jupyter Notebook
@@ -52,8 +55,9 @@ EXPOSE 6006
 # OpenCV 3.4.1
 #
 # Dependencies
+RUN add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main" && apt update && apt install libjasper1 libjasper-dev
 RUN apt-get install -y --no-install-recommends \
-libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev \
+libjpeg8-dev libtiff5-dev libpng-dev \
 libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libgtk2.0-dev \
 liblapacke-dev checkinstall
 # Get source from github
@@ -77,20 +81,7 @@ cmake libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev \
 libhdf5-serial-dev protobuf-compiler liblmdb-dev libgoogle-glog-dev \
 libboost-all-dev && \
 pip3 install lmdb
-# Get source. Use master branch because the latest stable release (rc3) misses critical fixes.
-RUN git clone -b master --depth 1 https://github.com/BVLC/caffe.git /usr/local/src/caffe
-# Python dependencies
-RUN pip3 --no-cache-dir install -r /usr/local/src/caffe/python/requirements.txt
-# Compile
-RUN cd /usr/local/src/caffe && mkdir build && cd build && \
-cmake -D CPU_ONLY=ON -D python_version=3 -D BLAS=open -D USE_OPENCV=ON .. && \
-make -j"$(nproc)" all && \
-make install
-# Enivronment variables
-ENV PYTHONPATH=/usr/local/src/caffe/python:$PYTHONPATH \
-PATH=/usr/local/src/caffe/build/tools:$PATH
-# Fix: old version of python-dateutil breaks caffe. Update it.
-RUN pip3 install --no-cache-dir python-dateutil --upgrade
+RUN apt install -y caffe-cpu
 
 #
 # Java
@@ -108,8 +99,7 @@ RUN pip3 install --no-cache-dir --upgrade h5py pydot_ng keras
 #
 # PyTorch 0.3.1
 #
-RUN pip3 install http://download.pytorch.org/whl/cpu/torch-0.3.1-cp35-cp35m-linux_x86_64.whl && \
-pip3 install torchvision
+RUN pip3 install torch==1.8.1+cpu torchvision==0.9.1+cpu torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
 
 #
 # PyCocoTools
